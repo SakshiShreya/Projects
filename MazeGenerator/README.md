@@ -5,5 +5,5 @@ This project generates a random maze each time depending on the size provided at
 Maze.jpg is the sample output of the code.
 
 Following libraries need to be installed for running the code:
-1. openCV
+1. openCV (2.9.4)
 2. numpy
