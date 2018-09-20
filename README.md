@@ -1,9 +1,16 @@
-# PythonProjects
-All my python projects over here
+# Projects
+All of my mini projects are added here
 
-The projects are:
-1. Langton's Ant
-2. Maze Generator
-3. Circle Packing
+Projects are divided into different folders depending on the programming language.
 
-I will upload others soon..
+## Python Projects:
+* Circle Packing (Simulation)
+* Langdon's Ant (Simulation)
+* Maze Generator (Simulation)
+* Water Ripple (Simulation)
+
+## Java Projects:
+* Battleship Game
+
+## C/C++ Projects:
+* Blackjack Game
