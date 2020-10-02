@@ -7,6 +7,7 @@ function prototypes
 void displayBoard();
 int verifySelection(int, int);
 void checkForWin();
+void startGamePlay();
 
 /******************
 global variables
@@ -21,7 +22,6 @@ begin main function
 int main()
 {
     int x, y;
-    int iSquareNum = 0;
     for ( x = 0; x < 3; x++ ) {
         for ( y = 0; y < 3; y++ ) {
             board[x][y] = ' ';
@@ -29,6 +29,13 @@ int main()
     }
     displayBoard();
 
+    //takes input from the players and check if a player won
+    startGamePlay();
+    return 0;
+} //end main function
+
+void startGamePlay() {
+    int iSquareNum = 0;
     while (cWhoWon == ' ')
     {
         if ( iCurrentPlayer == 1 || iCurrentPlayer == 0 )
@@ -55,8 +62,7 @@ int main()
         checkForWin();
         printf("\n%c\n", cWhoWon);
     } //end loop
-    return 0;
-} //end main function
+}
 
 void displayBoard() {
     int x, y;
